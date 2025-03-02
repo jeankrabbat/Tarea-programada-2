@@ -14,7 +14,7 @@ def seleccionar_opcion():
 def manejo_opcion(opcion):
     if opcion == "1":
         print("Eligiste cargar datos.")
-        cargar_datos(r'C:\data\primeraprogramada_ordenado_2\segunda_parte-bubble_sort-resultado_pbp_2009.csv', 'info.dat')
+        cargar_datos(r'C:\data\segundaprogramada\segunda_parte-bubble_sort-resultado_pbp_2009.csv', 'info.dat')
         return True
     elif opcion == "2":
         print("Eligiste buscar datos.")
